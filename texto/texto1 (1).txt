@@ -1,0 +1,22 @@
+public Texto(int n) £
+palabras = neu Palebra(n];
+total = 0;
+
+pa
+* Greturn true si el texto está completo
+./
+public boolean textoCompleto() £
+is (total == palabras.lengtn)£
+return truez
+?
+
+return falsez
+
+pa
+* Greturn el n* de palabras distintas aparecidas en
+* el texto y guardadas en el array
+./
+public int totalPalabras() £
+
+return total;
+

@@ -1,0 +1,46 @@
+public String toString() €
+StringBuilder sb = new StringBuilder();
+int palabrasFila = 0;
+Hor (ánt i= 03 1< total; ie) (
+if (palebrasFila < 6)í
+
+ 
+
+ 
+
+   
+
+sb.eppend(palabras[i].getPalabra() + * (% + palabras[i].getfrecuencia() + ")" + "ve
+palebresFila+;
+7
+else £
+sb.appena("");
+pelebresFila = 0;
+7
+7
+return sb.toString();
+7
+pa
+
++ Devuelve la palabra de la posición p
++ Si p es incorrecto se devuelve null
+./
+public Palabra getPalabra(int p) €
+i6 (p< total)£
+return palabras[p]3
+?
+
+return null;
+
+pa
+* Greturn un array de cadenas con las palabras del texto
+* capitelizadas de forma alterna
+./
+public String[] capitalizaralterna() €
+String[] copia = neu String[total];
+For (int i = 03 i< palabras.length; d+) £
+copia[i] = Utilidades.capitalizarAlterna(palabras[i].getPalabra())3
+?
+
+return copia;
+

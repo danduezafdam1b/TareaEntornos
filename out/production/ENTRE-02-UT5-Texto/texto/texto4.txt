@@ -1,0 +1,11 @@
+public String[] palabrasConLetrasRepetidas() £
+String[] repetidas = neu String[total];
+Hor (ánt i= 03 1< total; ie) (
+if (Utilidades. tieneLetrastepetidas (palabras[i].getPalabra()))£
+repetidas[i] = palabras[i].getPalabra();
+
+ 
+
+?
+return repetidas;
+

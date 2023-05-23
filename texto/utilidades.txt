@@ -1,0 +1,43 @@
+public static String capitalizaralterna(String cadena) €
+String cad2 = "";
+Hor (ánt i = 0; i < cadena.lengtn(); á
+df (1%2==0)1
+cad2 += cadena.toUpperCase().charát(1)3
+
+   
+
+=3)4
+
+ 
+
+cad2 += cadena.toUppertase().charát(i + 1);
+cad2 += cadena.toUppertase().charát(i + 2);
+Y else £
+cad2 += cadena. toLowertase().charát(i);
+cad2 += cadena,toLowercase().charát(i + 1);
+cad2 += cadena,toLowercase().charát(i + 2);
+
+?
+
+return cad2;
+
+pa
+* Dada una cadena devuelve true si hay letras repetidas, false en otro caso
+
+* Es indiferente mayúsculas o minúsculas
+
+ 
+
+* pista!! puedes hacer de forma sencilla este método con ayuda de
+
+* index0f y substring
+./
+public static boolean tieneletrasRepetidas(String cadena) £
+for (ánt i = 03 1 < cadena.lengtn(); d+) €
+is (cadena.index0f(cadena.charát(i-1), 1) > 0f
+return truez
+
+?
+
+return falsez
+

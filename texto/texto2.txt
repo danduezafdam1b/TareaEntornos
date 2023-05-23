@@ -1,0 +1,34 @@
+public int estaPalabra(String palabra) £
+Hor (ánt i= 03 1< total; ie) (
+if (palebras[i].equels(palabra.toUpperCase()))í
+return 43
+
+return -13
+
+pa
+
+* Gparam palabra inserta la palabra en el lugar adecuado
+
+- de forma que el array palabras quede ordenado
+- alfabéticamente
+
+= solo hay que insertar en este método, se asume que la palabra
+- no está y que es posible añadirla
+
+./
+
+private void insertarPalabraEnorden(String palabra) £
+int á = total-15
+uhile (i >= 0 8% palabras[i].getPalabra().compareTolgnoreCase(palabra) > 0) €
+palabras[i+1] = palabras[il;
+
+ 
+
+?
+palabras[iw1].
+totale+;
+
+ 
+
+1eu Palebra(palabra);
+
